@@ -3,10 +3,8 @@
     <boolean name="aliasEnabled" value="true"/>
     <boolean name="allowAttachAudio" value="false"/>
     <boolean name="allow_add_call_during_video_call" value="false"/>
-    <boolean name="allow_adding_apns_bool" value="false"/>
     <boolean name="allow_hold_in_ims_call" value="false"/>
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false"/>
-    <boolean name="apn_expand_bool" value="false"/>
     <boolean name="broadcast_emergency_call_state_changes_bool" value="true"/>
     <boolean name="carrier_allow_turnoff_ims_bool" value="false"/>
     <boolean name="carrier_name_override_bool" value="true"/>
@@ -26,7 +24,6 @@
     <boolean name="enableMultipartSMS" value="true"/>
     <boolean name="enabledNotifyWapMMSC" value="true"/>
     <boolean name="enabledTransID" value="true"/>
-    <boolean name="gps.persist_lpp_mode_bool" value="true"/>
     <boolean name="is_ims_conference_size_enforced_bool" value="true"/>
     <boolean name="mdn_is_additional_voicemail_number_bool" value="true"/>
     <boolean name="mmsCloseConnection" value="true"/>
@@ -114,28 +111,6 @@
         <item value="510|another device sent all devices busy response|1404"/>
         <item value="1014|call has been pulled by another device|1016"/>
         <item value="*|Call is dropped due to Wi-Fi signal is degraded|1407"/>
-    </string-array>
-    <string-array name="read_only_apn_fields_string_array" num="20">
-        <item value="name"/>
-        <item value="proxy"/>
-        <item value="port"/>
-        <item value="user"/>
-        <item value="password"/>
-        <item value="server"/>
-        <item value="mmsc"/>
-        <item value="mmsproxy"/>
-        <item value="mmsport"/>
-        <item value="mcc"/>
-        <item value="mnc"/>
-        <item value="authtype"/>
-        <item value="type"/>
-        <item value="protocol"/>
-        <item value="roaming_protocol"/>
-        <item value="bearer"/>
-        <item value="bearer_bitmask"/>
-        <item value="carrier_enabled"/>
-        <item value="mvno_type"/>
-        <item value="mvno_match_data"/>
     </string-array>
     <int-array name="lte_rsrp_thresholds_int_array" num="4">
         <item value="-115"/>
