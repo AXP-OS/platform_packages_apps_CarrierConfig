@@ -13,10 +13,6 @@
     <int name="maxImageWidth" value="2592"/>
     <int name="default_mtu_int" value="1410"/>
     <string name="carrier_name_string">Fido</string>
-    <string name="gps.lpp_profile">2</string>
-    <string-array name="read_only_apn_types_string_array" num="1">
-        <item value="*"/>
-    </string-array>
     <string-array name="non_roaming_operator_string_array" num="5">
         <item value="302220"/>
         <item value="302610"/>
