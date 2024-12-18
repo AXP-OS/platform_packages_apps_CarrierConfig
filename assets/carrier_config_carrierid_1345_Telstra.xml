@@ -13,7 +13,6 @@
         <item value="dun"/>
         <item value="supl"/>
     </string-array>
-    <string-array name="read_only_apn_types_string_array" num="0"/>
     <int-array name="lte_rsrp_thresholds_int_array" num="4">
         <item value="-120"/>
         <item value="-115"/>
